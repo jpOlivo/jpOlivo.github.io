@@ -2,5 +2,11 @@
 layout: page
 title: About me 
 ---
+My name is Juan Olivera. I am a Software Engineer, my professional passions are:
 
-This is a static page. It could be an 'about page' if you'd like.
+* Architectures of Integration
+* Software Development
+* OpenData
+* BigData
+
+
