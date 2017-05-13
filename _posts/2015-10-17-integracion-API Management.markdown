@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "API Management y Economia de APIs"
+title:  "Gestion y Economia de APIs"
 date:   2015-10-17 14:44:00
 categories: Integracion
 ---
