@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "EAI vs ESB, o de EAI a ESB?"
+title:  "Enfoques para la integracion de aplicaciones empresariales (EAI)"
 date:   2016-01-10 01:44:00
 categories: Integracion
 ---
@@ -15,40 +15,40 @@ El proposito de la integracion de aplicaciones empresariales (EAI) es lograr la 
 Existen diferentes enfoques o arquitecturas para lograr la Integracion de Aplicaciones, entre los cuales podemos nombrar: Point-to-Point, Hub-and-Spoke y Bus
 
 
-###Point-to-Point
+### Point-to-Point
 Bajo este enfoque de integracion, cada aplicacion se comunica directamente con todas las otras con las que interactua.
 
-####Desventajas
+#### Desventajas
 * La solucion es especifica de cada canal (sumar una nueva aplicacion requerira que las aplicaciones que necesiten integrarse con ella sean modificadas)
 * Alto acoplamiento entre aplicaciones (No contribuye a la mantenibilidad, un cambio en una aplicacion requerira modificar todas las aplicaciones que se comuniquen con ella)
  
 
 
-###Hub-and-Spoke
+### Hub-and-Spoke
 Este modelo permite integrar aplicaciones a traves de un nodo Gestor (Hub/Broker) y varios adaptadores (Spokers).
 La logica de integracion generalmente esta concentrada en el Broker, y el mismo se comunica con cada aplicacion a traves de un Spoke encargado 
 de transformar la informacion que recibe de las aplicaciones en el formato que el Broker es capaz de interpretar. Ademas, el Broker se encarga de recibir los mensajes y transformarlos para reenviarselos al destino en el formato correcto.
 
 
 
-####Ventajas
+#### Ventajas
 * Facilita la integracion de un nuevo sistema (la logica de integracion esta encapsulada en el Broker)
 * Reduce el acoplamiento al proveer una interface estandarizada
 
-####Desventajas
+#### Desventajas
 * Existe un punto central de fallo - SPOF, Single Point of Failure - (si existe un problema en el Broker las aplicaciones quedan incomunicadas)
 * Conlleva mas tiempo de procesamiento que una integracion Point-to-Point
 
-###Bus (ESB)
+### Bus (ESB)
 A diferencia de una integracion hub/spoke, el engine de integracion que realiza la transformacion y enrutamiento se encuentra
 distribuido. Este enfoque utiliza un Backbone central (Bus) para la propagacion de mensajes. Los mensajes fluyen a traves
 del Bus y son tomados por los adaptadores que tienen la finalidad de transformar los mensajes en el formato requerido por cada aplicacion
 
-####Ventajas
+#### Ventajas
 * Mejora la escalabilidad
 * Mejora la interoperabilidad (centrado en estandares abiertos)
 
-####Desventajas
+#### Desventajas
 * Mas dificil de mantener
 * Mayor latencia debido al overhead necesario para interpretar, transformar, enrutar, etc. mensajes.
 
