@@ -1,0 +1,84 @@
+Revisar, a partir del siguiente enlace (http://blogs.tecsisa.com/articulos-tecnicos/por-que-un-enterprise-service-bus/) 
+las diferencias entre soluciones EAI y soluciones ESB. 
+
+Definir cada rama de soluciones, 
+indicar sus ventajas, 
+
+
+
+inconvenientes, 
+
+
+
+y ejemplos de cada una de ellas.
+
+
+
+intro
+ 
+
+
+
+
+La integracion de aplicaciones e informacion dentro de las organizaciones es un punto critico para poder desarrollar y llevar a cabo
+sus estrategias de negocios. La no integracion de estos componentes dificulta y hasta incluso muchas veces imposibilita la ejecucion de 
+los procesos de negocio de una organizacion. A causa de esto crece el aislamiento de los sistemas, formandose islas de informacion
+donde prevalecen las conexiones punto a punto, no favorencido la mantenibilidad y escalabilidad de los sistemas de informacion.
+
+El proposito de la integración de aplicaciones empresariales (EAI) es lograr la interoperabilidad y organización del flujo de información 
+de todos las aplicaciones que contribuyen a la ejecucion de los procesos de negocio de una organizacion, con el proposito de 
+ asegurar un unico (en el sentido de que no existe redundancia de informacion, de aplicaciones, etc.)  sistema de información de la empresa (incluyendo clientes, socios y proveedores)
+
+
+Existen diferentes enfoques para lograr la integracion de aplicaciones: Point-to-Point, Hub-and-Spoke, Bus
+
+
+Point-to-Point
+Bajo este enfoque de integracion, cada aplicacion se comunica directamente con todas las otras con las que interactua.
+
+Desventajas
+La solucion es especifica de cada canal (una nueva aplicacion requerira que las aplicaciones que necesiten integrarse con ella sean modificadas)
+Alto acoplamiento entre aplicaciones (No contribuye a la mantenibilidad, un cambio en una aplicacion requerira modificar todas las aplicaciones que se comuniquen con ella)
+ 
+
+
+Hub-and-Spoke
+Este modelo permite integrar aplicaciones a traves de un nodo Gestor (Broker) y varios adaptadores (Spoke).
+La logica de intregracion generalmente esta concentrada en el Broker y el mismo se comunica con cada aplicacion a traves de un Spoke encargado 
+de transformar la información que reciben de las aplicaciones en el formato que el Broker es capaz de interpretar.
+El Broker se encarga de recibir los mensajes y transformarlos para reenviárselos al destino en el formato correcto.
+
+
+
+ventajas
+Facilita la integracion de un nuevo sistema (la logica de integracion esta encapsulada en el Broker)
+Reduce el acoplamiento al proveer una interface estandarizada
+
+Desventajas
+Existe un Punto central de fallo (si existe un problema en el Broker las aplicaciones quedan incomunicadas)
+Conlleva mas tiempo de procesamiento que una integracion Point-to-Point
+
+Bus (ESB)
+A diferencia de una integracion hub/spoke, el engine de integracion que realiza la transformacion y enrutamiento se encuentra
+distribuido. Este enfoque utiliza un Backbone central (Bus) para la propagacion de mensajes. Los mensajes fluyen a traves
+del Bus y son tomados por los adaptadores que tienen la finalidad de transformar los mensajes en el formato requerido por cada aplicacion
+
+Ventajas
+Mejora la escalabilidad
+Mejora la interoperabilidad (centrado en estandares abiertos)
+
+Desventaja
+Mas dificil de mantener
+Mayor latencia debido al overhead necesario para interpretar, transformar, enrutar, etc. mensajes.
+
+
+conclusion
+
+Un ESB (Enterprise Service Bus) es considerado un tipo de EAI (Enterprise Application Integration) y puede decirse que es la evolucion 
+de Hub-And-Spoke. Ambos ofrecen servicios basicos como transaccionalidad, seguridad, transformaciones, enrutamiento, etc. ESB esta centrado en estandares
+abiertos mientras que las integraciones del tipo Hub-And-Spoke son generalmente propietarias,
+
+Ejemplos de productos ESB son: Mules ESB, Apache ServiceMix, IBM Websphere ESB, TIBCO ActiveMatrix, etc.
+Ejemplos de EAI son: 
+
+  
