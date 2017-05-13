@@ -8,8 +8,7 @@ highlighter: pygments
 #highlighter: rouge
 logo: false
 paginate: 15
-#baseurl: /
-baseurl: 'http://jpolivo.github.io'
+baseurl: /
 domain_name: 'http://jp_olivo.github.com'
 google_analytics: 'UA-XXXXXXXX-X'
 
