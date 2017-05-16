@@ -4,8 +4,8 @@ meta_description: "Juan Olivera, Blogging about Architecture of Software"
 
 #markdown: redcarpet
 markdown: kramdown
-highlighter: pygments
-#highlighter: rouge
+#highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
