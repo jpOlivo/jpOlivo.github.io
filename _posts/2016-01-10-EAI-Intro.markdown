@@ -6,7 +6,9 @@ categories: Integracion
 ---
 
 La integracion de aplicaciones e informacion dentro de las organizaciones es un punto crucial para poder desarrollar y llevar a cabo las estrategias de negocios definidas. No poder integrar estos componentes, dificulta (y hasta incluso muchas veces imposibilita) la ejecucion de 
-los procesos de negocio de una organizacion. A causa de esto, crece el aislamiento de los sistemas, fomentando la proliferacion de islas de informacion, donde prevalecen las conexiones punto a punto, contribuyendo negativamente a la mantenibilidad y escalabilidad de los sistemas de informacion.
+los procesos de negocio de una organizacion. 
+
+A causa de esto, crece el aislamiento de los sistemas, fomentando la proliferacion de islas de informacion, donde prevalecen las conexiones punto a punto, contribuyendo negativamente a la mantenibilidad y escalabilidad de los sistemas de informacion.
 
 El proposito de la integracion de aplicaciones empresariales (EAI) es lograr la interoperabilidad y organizacion del flujo de informacion de todos las aplicaciones que contribuyen a la ejecucion de los procesos de negocio de una organizacion, con el proposito de 
  asegurar un unico (en el sentido de que no existe redundancia de informacion, de aplicaciones, etc.) sistema de informacion de la empresa (incluyendo clientes, socios y proveedores).
