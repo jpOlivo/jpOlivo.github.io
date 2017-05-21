@@ -160,6 +160,12 @@ table { border-collapse: collapse; border-spacing: 0; }
 .icon-link:before {
     content: "\f608";
 }
+.icon-linkedin:before {
+    content: "\eac9";
+}
+.icon-linkedin2:before {
+    content: "\eaca";
+}
 
 
 /* ==========================================================================
@@ -958,7 +964,8 @@ body:not(.post-template) .post-title {
     position: absolute;
     top: 6rem;
     right: 0;
-    width: 140px;
+    /*width: 140px;*/
+    width: 155px;
 }
 
 .post-footer .share a {

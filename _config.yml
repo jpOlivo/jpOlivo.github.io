@@ -9,7 +9,8 @@ highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://jp_olivo.github.com'
+#domain_name: 'http://jp_olivo.github.com'
+domain_name: 'jpolivo.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 
 # Details for the RSS feed generator
