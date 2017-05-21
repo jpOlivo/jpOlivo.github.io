@@ -5,12 +5,9 @@ date:   2015-10-17 14:44:00
 categories: Integracion
 ---
 
-En los ultimos a&ntilde;os, SOA se ha convertido en el standard para las nuevas arquitecturas de aplicacion.
-
+En los ultimos a&ntilde;os, SOA se ha convertido en el standard para las nuevas arquitecturas de aplicacion. 
 Este nuevo paradigma permite a las empresas soportar sus procesos de negocio de manera segura, robusta y escalable.
-
 En un contexto digital, cambiante y lleno de incertidumbres, las empresas necesitan expandirse a nuevos mercados y generar lineas de negocio alternativas que permitan cubrir las demandas de multiples usuarios que consumen sus datos y servicios a traves de diferentes canales (aplicaciones web, smartphones, tablets, smart TVs, etc.).
-
 Con el objetivo de agregar valor a los servicios y datos que ofrecen, las empresas necesitan comenzar a trabajar en la "apertura" de sus activos digitales, y el _API Management_ juega un rol fundamental en esta tarea.
 
 Grandes startup y empresas como Google, eBay, Amazon, Facebook, Twitter, Netflix, etc. fueron pioneras en la adopcion de una estrategia de "APIficacion", que les permitio obtener el maximo provecho de sus activos digitales.

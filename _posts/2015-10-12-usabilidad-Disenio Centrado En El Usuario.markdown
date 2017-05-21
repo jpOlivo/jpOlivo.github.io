@@ -6,10 +6,10 @@ categories: Usabilidad
 ---
 
 Es comun ver, que uno de los atributos de calidad menos tenido en cuenta al momento de dise&ntilde;ar un sistema, es la Usabilidad (la cual muchas veces se considera como algo subjetivo, o limitada unicamente a la interfaz de usuario).
+La __Usabilidad__ no solo trata de la disposicion fisica de los elementos que se visualizan en pantalla y sus caracteristicas, sino que ademas considera el grado de efectividad, eficiencia y satisfaccion que los usuarios pueden alcanzar al hacer uso de un sistema.
+Gestionar este atributo de calidad permitira mejorar el grado de aceptacion que tendra un producto o servicio. 
 
-La __Usabilidad__ no solo trata de la disposicion fisica de los elementos que aparecen en pantalla y sus caracteristicas, sino que ademas considera el grado de efectividad, eficiencia y satisfaccion que los usuarios pueden alcanzar al hacer uso de un sistema.
-
-Tratarla es importante porque marca el grado de aceptacion que tendra el producto o servicio que estemos ofreciendo. Quien aceptaria algo dificil o complicado de usar?, Veamos...
+Quien aceptaria algo dificil o complicado de usar?, Veamos...
 
 Seguramente habras visto alguna vez, esos ventiladores de techo que traen luces y unos controles en forma de cadena. Cuantas personas crees que utilizan estos controles?
 
