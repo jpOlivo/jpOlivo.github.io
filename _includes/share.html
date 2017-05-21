@@ -12,7 +12,7 @@
        onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
         <span class="hidden">Google+</span>
     </a>
-    <a class="icon-linkedin2" href="http://www.linkedin.com/shareArticle?mini=true&url={{site.url}}{{page.url}}&title={{page.title}}&summary={{page.excerpt | remove: '<p>' | remove: '</p>'}}&source={{site.domain_name}}"
+    <a class="icon-linkedin2" href="http://www.linkedin.com/shareArticle?mini=true&url={{site.url}}{{page.url}}&title={{page.title}}&summary={{page.excerpt | remove: '<p>' | remove: '</p>' | '...'}}&source={{site.domain_name}}"
        onclick="window.open(this.href, 'linkedin-share', 'width=490,height=530');return false;">
         <span class="hidden">Linkedin</span>
     </a>
