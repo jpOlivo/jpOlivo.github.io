@@ -284,7 +284,7 @@ Nada mal no? Imaginemos si tenemos que hacer esto en una infraestructura tradici
 
 Como pudimos ver, los contenedores permiten la creacion de infraestructuras agiles, consistentes y replicables, y al utilizarlos con aplicaciones orientadas a microservicios, permiten que los cambios se implementen de manera simple y con bajo costo operacional.
 
-Todo el codigo que utilizado en esta guia puede descargarse desde este [repositorio](https://github.com/jpOlivo/microservice-with-docker-vagrant.git)
+Todo el codigo utilizado en esta guia puede descargarse desde este [repositorio](https://github.com/jpOlivo/microservice-with-docker-vagrant.git)
 
 
 
