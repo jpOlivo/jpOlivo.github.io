@@ -40,7 +40,7 @@ Ademas, de esta manera se tiene mucho mas control sobre la maquina virtual en la
 
 ### Vagrant al rescate
 
-[Vagrant](https://www.vagrantup.com/) es una herramienta para la creacion y gestion de entornos de desarrollo virtualizados (*boxes*). Esta permite generar entornos de desarrollo reproducibles y compartibles de forma muy sencilla. 
+__Vagrant__ es una herramienta para la creacion y gestion de entornos de desarrollo virtualizados (*boxes*). Esta permite generar entornos de desarrollo reproducibles y compartibles de forma muy sencilla. 
 
 Para poder instalarlo basta con correr el [instalador](https://www.vagrantup.com/downloads.html) y validar la instalacion a traves de `vagrant version`:
 
@@ -53,7 +53,7 @@ Nota: Por defecto, Vagrant utiliza [VirtualBox](https://www.virtualbox.org/) com
 
 ### Creando nuestro ambiente (Vagrant box)
 
-En este punto es donde vamos a describir que tipo de maquina necesitamos, como configurarla y como aprovisionarla. En Vagrant todo esto se realiza a traves de un [Vagrantfile](https://www.vagrantup.com/docs/vagrantfile/). En nuestro caso, el Vagrantfile luce algo parecido a esto:
+En este punto, es donde vamos a describir que tipo de maquina necesitamos, como configurarla y como aprovisionarla. En Vagrant, todo esto se realiza a traves de un [Vagrantfile](https://www.vagrantup.com/docs/vagrantfile/). En nuestro caso, el Vagrantfile luce algo parecido a esto:
 
 ~~~~~~
 ...
