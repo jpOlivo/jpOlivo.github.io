@@ -17,7 +17,7 @@ __Docker__ permite crear y gestionar multiples sistemas (*containers*) totalment
 
 * __Ligeros__ - no se virtualiza todo un sistema completo, sino solo lo necesario (la virtualizacion se realiza a nivel SO)
 
-Estas son solo algunas de las ventajas que hicieron que grandes del sector como Google, Red Hat, IBM y Microsoft, etc. se hayan implicado en su desarrollo e implantacion, ofreciendolo ademas a traves de sus servicios cloud que todos usamos a diario (AWS, DigitalOcean, Azure, etc.)
+Estas, son solo algunas de las ventajas que hicieron que grandes del sector como Google, Red Hat, IBM y Microsoft, etc. se hayan implicado en su desarrollo e implantacion, ofreciendolos ademas a traves de sus servicios Cloud que todos usamos a diario (AWS, DigitalOcean, Azure, etc.)
 
 
 
@@ -282,9 +282,9 @@ Nada mal no? Imaginemos si tenemos que hacer esto en una infraestructura tradici
 
 ### Resumen
 
-Como pudimos ver en esta guia, los contenedores permiten la creacion de infraestructuras agiles, consistentes y replicables, y al utilizarlos con aplicaciones orientadas a microservicios, permiten que los cambios se implementen de manera simple y con bajo costo operacional.
+Como pudimos ver, los contenedores permiten la creacion de infraestructuras agiles, consistentes y replicables, y al utilizarlos con aplicaciones orientadas a microservicios, permiten que los cambios se implementen de manera simple y con bajo costo operacional.
 
-Todo el codigo que vimos puede descargarse desde este [repositorio](https://github.com/jpOlivo/microservice-with-docker-vagrant.git)
+Todo el codigo que utilizado en esta guia puede descargarse desde este [repositorio](https://github.com/jpOlivo/microservice-with-docker-vagrant.git)
 
 
 
